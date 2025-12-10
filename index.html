@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from libertango.neocities.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Dec 2025 02:56:12 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="srcs/icons/lain.png" type="image/png">
+    <link rel="stylesheet" href="node_modules/98.css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>LiberTango</title>
+</head>
+<body>
+    <audio id="bgMusic" preload="auto">
+        <source src="srcs/musics/Duvet.mp3" type="audio/mpeg">
+    </audio>
+    <main>
+        <div class="icons">
+            <div id="icon-4">
+                <img  width="32" height="32" src="srcs/icons/cd_audio_cd_a-4.png" class="img" id="myMusic">
+                <p class="name">Music</p>
+            </div>
+            <div id="icon-1">
+                <img  width="32" height="32" src="srcs/icons/computer_explorer-4.png" class="img" id="myComputer">
+                <p class="name">MyComputer</p>
+            </div>
+            <div id="icon-2">
+                <img  width="32" height="32" src="srcs/icons/console_prompt-0.png" class="img">
+                <p class="name">Consola</p>
+            </div>
+            <div id="icon-3">
+                <img  width="32" height="32" src="srcs/icons/directory_closed-4.png" class="img" id="myFiles">
+                <p class="name">MyFiles</p>
+            </div>
+            <div id="icon-5">
+                <img  width="32" height="32" src="srcs/icons/note.png" class="img" id="note">
+                <p class="name">Notepad</p>
+            </div>
+            <div id="icon-6">
+                <img  width="32" height="32" src="srcs/icons/qq_icon.png" class="img" id="qq">
+                <p class="name">QQ</p>
+            </div>
+        </div>
+        <div class="window" style="width: 800px; height: 600px;" id="computerWindow">
+            <div class="title-bar" id="windowBar1">
+              <div class="title-bar-text">MyComputer</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close" id="close_1"></button>
+              </div>
+            </div>
+            <div class="nav-bar">
+                <p style="margin-left: 8px;">File</p>
+                <p>Edit</p>
+                <p>View</p>
+            </div>
+            <div class="document-bar">
+                <p>Address</p>
+                <select>
+                    <option>My Computer</option>
+                </select>
+            </div>
+            <div class="window-body">
+                <div class="innerWindow">
+                    <div class="container-1">
+                        <div>
+                            <h1 id="welcome">WELCOME TO MY PAGE:</h1>
+                            <p>Hello, my name is Shieu.
+                            </p>  
+                            <p>
+                                This is my personal website. I'm an ex quantum researcher.<br>
+                                Now switching to quant researcher, which is easier._.<br>
+                                Enjoy it! This website is building from a half finish work by someone else, libertango in neocities.org. I'll putting effort updating this page regularly.<br>
+                                以太坊萬歲！世界計算機萬歲！<br>
+                            </p>
+                        </div>
+                        <div class="links-icons">
+                            <a href="https://github.com/MarschildChris" target="_blank">
+                                <img  width="96" height="96" src="srcs/icons/git.png" class="iconsLinks">
+                                <p>My Github</p>
+                            </a>
+                            <a href="https://www.instagram.com/shieu.812/" target="_blank">
+                                <img  width="96" height="96" src="srcs/icons/instagram.png" class="iconsLinks">
+                                <p>My Instagram</p>
+                            </a>
+                            <a href="https://discord.com/shieu._." target="_blank">
+                                <img  width="96" height="96" src="srcs/icons/jueves_bot.png" class="iconsLinks">
+                                <p>My Discord</p>
+                            </a>
+                        </div> 
+                    </div> 
+                    <div class="container-2">
+                        <p>
+                            ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+                            ⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘<br>
+                        </p>
+                        <h4>UPDATES AND FEATURES!</h4>
+                        <p><u>MY FILES</u>: Link to LiberTango personal art/edits. Right click them to dowload.✅</p>
+                        <P>MUSIC: It's inspired in old Windows media players.✅</P>
+                        <P>It currently includes:</P>
+                        <P>         -Links to Serial Experiments Soundtrack on Youtube.</P>
+                        <P>         -Links to Hellsing 2001 Soundtrack on Youtube.</P>
+                        <P>         -Download links for all albums by the Japanese band Suilen via MediaFire.</P>
+                        <P>         -Links to various Spotify playlists.</P>
+                        <p>CONSOLE: On the work!❌</p>
+                        <p id="charger">0% [█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █] 100%</p>
+                        <h4>BUTTONS!</h4>
+                        <p>All of the buttons redirect to other websites. TRY THEM ALL!!!</p>
+                        <div class="main-media">
+                            <a href="https://www.amazon.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/amazon.gif" class="iconsLinks" style="width: 88px;">
+                            </a>
+                            <a href="https://www.apple.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/apple.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://discord.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/discord2.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.netflix.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/netflix-88x31.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://twitter.com/home" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/twitterbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/ytbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.nationalgeographicla.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/ngs-88x31-logo.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.newgrounds.com/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/bigexplosions3.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.playstation.com/es-ar/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/psbutton.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.win-rar.com/start.html?&amp;L=6" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/rarnow.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://store.steampowered.com/?l=spanish" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/steam.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://neocities.org/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/nc.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://horrorgifs.neocities.org/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/hgs.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.opera.com/es/download" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/opera-bluepattern88x31.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://www.mozilla.org/es-AR/firefox/browsers/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/firefoxn00bs.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://archive.org/details/xphomesp3" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/imissxp.gif" class="iconsLinks">
+                            </a>
+                            <a href="https://buttonwall.neocities.org/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/captain-hawkes.neocities.org.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://www.youtube.com/@Gorillaz" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/p4-murdoc.png" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/javascriptkit.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://twitter.com/FelizJuevesBott/status/1745520956636823664/photo/1" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/FELIZ-JUEVES.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/wwwbutton.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://vagab0nd.neocities.org/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/vbtn.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://scarecat.neocities.org/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/scarecat.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://humanityisnotbeautiful.neocities.org/"><img src="../files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+                            <a href="https://youtube.com/playlist?list=PLk_xwpTMJK22fJGLbCMMYTKBlrreutyU3&amp;si=F3AQxwiQ64jwNPDJ" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/hellsing-button.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                            <a href="https://store.steampowered.com/app/411370/Melty_Blood_Actress_Again_Current_Code/" target="_blank" alt="my twitter bot">
+                                <img src="srcs/gifs/BUTTON-ARC-EARTH.gif" class="iconsLinks" style="width: 88px;height: 31px;">
+                            </a>
+                        </div>
+                        <div class="my-button">
+                            <a href="https://neocities.org/site/libertango" target="_blank" alt="my twitter bot" style="height:31px;">
+                                <img src="srcs/gifs/LIBERTANGO-BUTTON.png" class="iconsLinks" style="width: 88px;">
+                            </a>
+                            <p>MY BUTTON</p>
+                        </div>
+                    </div> 
+                </div>
+                <p id="pe">Warning! This website was made for 1920x1080 PC resolutions. Not recommended on mobile devices.</p>
+            </div>
+        </div>
+        <div class="window" style="width: 800px; height: 600px;" id="fileWindow">
+            <div class="title-bar" id="windowBar2">
+              <div class="title-bar-text">MyFiles</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close" id="close_2"></button>
+              </div>
+            </div>
+            <div class="document-bar">
+                <p>Look In</p>
+                <select>
+                    <option>MyFiles</option>
+                </select>
+            </div>
+            <div class="window-body">
+              <div class="innerWindow">
+                <div class="line-title">
+                    <img src="srcs/icons/directory_open_cool-3.png" style="height: 24px;">
+                    <p>IMAGES</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs/images/ave%20maria.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/BRUTALISM.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/caravagios.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/COVER.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/cyberia%20grain.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/lain%20glitch.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/lain.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/LOGO.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/shinji%20abstracto.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/misato%20katsuragi.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/perfect%20blue%20card.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/perla%20sin%20fondo.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/png%20remera%20final.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/storie.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/sunsent.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/the%20end%20of%20the%20evangelion.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/VAPE.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/dark%20malenia.jpg" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/RUINER%20SQUARE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/RUINER.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/BSAS%20POSTER%20WHITE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/BSAS%20POSTER%20BLUE.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/BRUTALIST%20POSTER.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/images/BRUTALIST%20BUFFALO.png" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                </div>
+                <div class="line-title">
+                    <img src="srcs/icons/directory_open_cool-3.png" style="height: 24px;">
+                    <p>GIFS</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs/graphics/ARCHETYPE-EARTH.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/graphics/feliz%20jueves.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/graphics/gif-portada-2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/graphics/marvelous-arcueid_2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/graphics/ultra-red-arcueid-2.gif" style="max-height: 90px; margin-top: 5px;">
+                        <p>.</p>
+                    </div>
+                </div>
+                <div class="line-title">
+                    <img src="srcs/icons/directory_open_cool-3.png" style="height: 24px;">
+                    <p>BACKGROUND(change BG by clicking on the image)</p>
+                </div>
+                <div class="elmnt-container">
+                    <div class="item-container">
+                        <img src="srcs/SRL.jpg" style="max-height: 90px; margin-top: 5px;" id="bg1">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/SRLW.png" style="max-height: 90px; margin-top: 5px;" id="bg2">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/SRLW2.png" style="max-height: 90px; margin-top: 5px;" id="bg3">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/SRLW3.png" style="max-height: 90px; margin-top: 5px;" id="bg4">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/AW.png" style="max-height: 90px; margin-top: 5px;" id="bg5">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/AW2.png" style="max-height: 90px; margin-top: 5px;" id="bg6">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/AW3.png" style="max-height: 90px; margin-top: 5px;" id="bg7">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/AW4.png" style="max-height: 90px; margin-top: 5px;" id="bg8">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/wp6600251.jpg" style="max-height: 90px; margin-top: 5px;" id="bg9">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/wp6600254.jpg" style="max-height: 90px; margin-top: 5px;" id="bg10">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/wp6600307.jpg" style="max-height: 90px; margin-top: 5px;" id="bg11">
+                        <p>.</p>
+                    </div>
+                    <div class="item-container">
+                        <img src="srcs/wp6600355.jpg" style="max-height: 90px; margin-top: 5px;" id="bg12">
+                        <p>.</p>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        <div class="window" style="width: 300px" id="musicWindow">
+            <div class="title-bar" id="windowBar3">
+                <div class="title-bar-text">Music</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close" id="close_3"></button>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <p style="margin-left: 8px;">File</p>
+                <p>Disc</p>
+                <p>View</p>
+                <p>Options</p>
+                <p>Help</p>
+            </div>
+            <div class="window-body">
+                <div class="control-container">
+                    <div class="field-row">
+                        <label for="range28">Volume</label>
+                        <div class="is-vertical">
+                          <input id="range28" class="has-box-indicator" type="range" min="1" max="3" step="1" value="2" />
+                        </div>
+                    </div>
+                    <div class="image"></div>
+                    <div class="controls">
+                        <a href="https://youtube.com/playlist?list=PLk_xwpTMJK22fJGLbCMMYTKBlrreutyU3&amp;si=3NmbfX_bUr3lyo0f" target="_blank" id="buttonRedirect">
+                            <button class="pauseBtn" id="play">
+                                <div class="pause"></div>
+                            </button>
+                        </a>
+                        <div class="file-controls">
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing1.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing2.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing4.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing5.png);"></div>
+                            </button>
+                            <button class="pauseBtn">
+                                <div class="pause" style="background-image: url(srcs/icons/pngwing6.png);"></div>
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <select id="mscSelector">
+                    <option selected>Serial Experiments Lain OST [Full Album + Duvet]</option>
+                    <option>Serial Experiments Lain OST - Cyberia Mix [Full Album]</option>
+                    <option>Suilen - Hita-Hita</option>
+                    <option>Suilen - licca-no-ne</option>
+                    <option>Suilen - Neo Haram</option>
+                    <option>Suilen - Spine</option>
+                    <option>Suilen - The Dawn</option>
+                    <option>Destiny 2 RASPUTIN'S NODES</option>
+                    <option>Call of Duty Zombies Mix</option>
+                    <option>GORILLAZ</option>
+                    <option>RUINER TRACKS</option>
+                    <option>Yasushi Ishii - Hellsing: Unreleased TV OST/Soundtrack</option>
+
+                </select>
+                <p>Select the track, and hit the play button. It will redirect you to the playlist.</p>
+            </div>
+        </div>
+        <div class="window bar">
+            <button id="start_button">
+                <div id="windows_icon"></div>
+                <p>Start</p>
+            </button>
+            <div class="time-z">
+                <p>00:00:00</p>
+            </div>
+        </div>
+    </main>
+    <script src="java.js"></script>
+    <script src="../moment.github.io/luxon/global/luxon.min.js"></script>
+    <script src="times.js"></script>
+</body>
+
+<!-- Mirrored from libertango.neocities.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Dec 2025 02:56:31 GMT -->
+</html>

@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+
+a, .iconsLinks {
+  text-decoration: none;
+}
+
+
+main{
+    display: block;
+    height: 100vh;
+    background-image: url(srcs/wp6600251.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+#icon-1, #icon-2, #icon-3, #icon-4,#icon-5,#icon-6{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 69px; 
+    height: 49px;
+}
+
+.img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 3%;
+}
+.name{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.bar{
+    height: 30px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    background: silver;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    z-index: 3;
+}
+
+#start_button{
+    height: 100%;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 9px;
+}
+
+#windows_icon{
+    background-image: url(srcs/icons/windows_slanted-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+#start_button p{
+    margin: 0;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#computerWindow{
+    display: none;
+    height: auto;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.nav-bar{
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    background: silver;
+    display: flex;
+}
+
+.nav-bar p{
+    margin: 5px;
+    padding: 2px 4px 2px 2px;
+}
+
+.nav-bar p:hover{
+    box-shadow: inset -1px -1px #161616, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+
+.document-bar{
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    background: silver;
+    display: flex;
+    align-items: center;
+}
+
+.document-bar select{
+    margin: 3px 0 3px 0;
+    padding-right: 82%;
+}
+
+.document-bar p{
+    margin: 0 5px 0 5px;
+}
+
+#pe{
+    margin: 0px;
+    padding-top: 2px;
+    padding-left: 0;
+}
+
+.innerWindow{
+    background: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    height: 512px;
+    overflow-y: auto;
+}
+.innerWindow  h1, p{
+    padding: 5px;
+}
+
+.innerWindow p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #161616;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.innerWindow #welcome{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.links-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-icons a p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.iconsLinks{
+    margin: 0 5px 5px 5px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px 0 10px;
+}
+
+.container-2{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.container-2 h4{
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.container-2 P{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.main-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.main-media img{
+    margin-bottom: 5px;
+    margin-right: 10px;
+    
+}
+.main-media a{
+    padding: 0;
+    height: 31px;
+    width: 88px;
+    margin: 5px;
+}
+
+.my-button {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.my-button p{
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+#charger{
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#fileWindow {
+    display: none;
+    padding-bottom: 10px;
+}
+
+#fileWindow .innerWindow{
+    height: 543px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.line-title{
+    display: flex;
+    margin-top: 5px;
+    background-color: #dddbdb;
+    background-size: contain;
+    background-position: left center;
+}
+
+.line-title p{
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.elmnt-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.time-z{
+    flex-grow: 9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-right: 15px;
+}
+
+.time-z p{
+    font-size: 12px;
+    font-weight: bold;
+    background: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+}
+
+#musicWindow{
+    display: none;
+}
+
+
+
+.control-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.control-container .controls{
+    margin-left: 10px;
+    height: 60px;
+    width: 115px;
+}
+
+.pauseBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+}
+
+.pause{
+    background-image: url(srcs/icons/pngwing5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15px;
+    width: 10px;
+}
+
+#play{
+    margin-bottom: 10px;
+    width: 115px;
+}
+
+.file-controls{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.file-controls button{
+    min-width: 23px;
+    height: 23px;
+    width: 23px;
+}
+
+.file-controls #pauseBtn{
+    padding: 0;
+}
+
+
+.is-vertical{
+    height: 60px;
+}
+
+#range28{
+    width: 60px;
+    height: 1px;
+}
+
+.image{
+    background-color: white;
+    background: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    background-image: url(../i.ytimg.com/vi/sn7nmnLwWN4/hqdefaultb3a7.jpg?sqp=-oaymwE8CKgBEF5IWvKriqkDLwgBFQAAAAAYASUAAMhCPQCAokN4AfABAfgBzgWAAtAFigIMCAAQARh_IBMoLzAP&amp;rs=AOn4CLAeoyHOfsyenDKuJc6t5BoKrY3ETw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.window-body #mscSelector{
+    margin-top: 10px;
+    width: 100%;
+}
+
+#musicWindow .window-body p{
+    margin: 0;
+    padding-left: 0;
+}

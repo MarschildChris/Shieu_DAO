@@ -159,15 +159,19 @@ function changeBG(elemnt) {
             document.querySelector('main').style.backgroundImage = 'url(srcs/SRLW3.png)';
             break;
         case '5':
-            document.querySelector('main').style.backgroundImage = 'url(srcs/AW.png)';
+            document.querySelector('main').style.backgroundImage = 'url(srcs/lain0.png)';
             break;
     
         case '6':
-            document.querySelector('main').style.backgroundImage = 'url(srcs/AW2.png)';
+            document.querySelector('main').style.backgroundImage = 'url(srcs/lain1.png)';
             break;
 
         case '7':
-            document.querySelector('main').style.backgroundImage = 'url(srcs/AW3.png)';
+            document.querySelector('main').style.backgroundImage = 'url(srcs/bladerunner_lain.png)';
+            break;
+        
+        case '8':
+            document.querySelector('main').style.backgroundImage = 'url(srcs/serphant1.png)';
             break;
 
         case '9':

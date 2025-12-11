@@ -58,6 +58,7 @@ document.getElementById("close_3").onclick = function() { undisplayWindow('music
 
 document.getElementById("start_button").onclick = function() { undisplayWindow('all');};
 
+
 function displayWindow(element) {
     switch (element) {
         case 'computerWindow':
